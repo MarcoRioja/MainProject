@@ -1,17 +1,17 @@
-body{
+body {
     counter-reset: section;
 }
 
-p{
+p {
     color: blue;
 }
 
-h2{
+h2 {
     text-decoration: underline;
     color: black;
 }
 
-span{
+span {
     color: blue;
     background-color: yellow;
     font-weight: bold;
@@ -20,4 +20,39 @@ span{
 p::before {
     counter-increment: section;
     content: "Verso " counter(section) ": ";
-  }
+}
+
+.modal-menu-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-list li {
+    margin-bottom: 10px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.play-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
