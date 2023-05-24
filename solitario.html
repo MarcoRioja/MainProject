@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solitaire</title>
     <link rel="stylesheet" href="solitario.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -41,6 +43,21 @@
         </div>
     </div>
     <p id="userNameTxt">Sin Identificar</p>
+    
+    <button id="menuButton" onclick="openModal()"><i class="fa-solid fa-bars"></i></button>
+
+    <div id="menuModal" class="modal-menu">
+        <div class="modal-menu-content">
+            <ul class="menu-list">
+                <li></li><a href="index.html"><button class="play-button">Inicio</button></a>
+                <li></li><a href="solitario.html"><button class="play-button">Jugar</button></a>
+                <li></li><a href="partiendo_la_pana.xml"><button class="play-button">Ver Canción</button></a>
+                <li></li><a href="config.html"><button class="play-button">Ajustes</button></a>
+            </ul>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
     <script src="solitario.js"></script>
 </body>
 

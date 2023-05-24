@@ -39,7 +39,7 @@ window.addEventListener("click", function (event) {
 document.getElementById("loginSubmit").addEventListener("click", function (event) {
     event.preventDefault();
 
-    console.log(usernameInput.value)
+    console.log("Usuario iniciado: " + usernameInput.value)
     if (usernameInput.value != "") {
         localStorage.setItem("username", usernameInput.value);
 
@@ -47,6 +47,14 @@ document.getElementById("loginSubmit").addEventListener("click", function (event
         usernameInput.value = "";
 
         setUser();
+    }
+});
+
+document.getElementById("alertSubmit").addEventListener("click", function (event) {
+    event.preventDefault();
+    if (document.getElementById("alert_in").value != "") {
+        alert(document.getElementById("alert_in").value)
+        document.getElementById("alert_in").value = "";
     }
 });
 

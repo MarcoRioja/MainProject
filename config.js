@@ -2,8 +2,6 @@ var body = document.body;
 var modoGuardado = localStorage.getItem("modo");
 var userTxt = document.getElementById("userNameTxt");
 
-console.log("aaa" + savedUser);
-
 function loadConfig() {
     modoGuardado = localStorage.getItem("modo");
     body = document.body;

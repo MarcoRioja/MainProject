@@ -4,11 +4,12 @@
 <head>
     <title>Mi página</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="main">
         <a href="solitario.html"><button class="play-button">Jugar</button></a>
         <a href="partiendo_la_pana.xml"><button class="play-button">Ver Canción</button></a>
         <div class="settings-button"><i class="fa-solid fa-gear"></i></div>
@@ -29,6 +30,13 @@
                 <input type="text" id="username_incf" name="username" class="textEntry">
                 <br>
                 <input type="submit" value="Cambiar" id="loginSubmitAj">
+            </form>
+            <br>
+            <form>
+                <label for="alert">Alerta:</label>
+                <input type="text" id="alert_in" name="alert" class="textEntry">
+                <br>
+                <input type="submit" value="Enviar Alerta" id="alertSubmit">
             </form>
             <br>
             <a href="config.html" id="CfButton">Abrir en nueva página</a>
@@ -62,16 +70,18 @@
                 <p>Curso: 1º DAM</p>
                 <p>- Menú: Pagina inicial que actua como menu, con 2 modales, uno en la esquina izquierda para el inicio
                     de sesión y otro en la esquina derecha para los ajustes. Y en el centro de la página un botón para
-                    jugar.</p>
+                    jugar y otro para ver el XML.</p>
                 <p>- Páginas: Página inicial, página de ajustes, se puede acceder en la esquina derecha, una vez abierto
-                    el modal se puede abrir en una ventana nueva, y la página del juego.</p>
-                <p>- Ajustes: Opción a cambiar entre modo Oscuro y Claro y para cambiar tanto el nombre de usuario y el
-                    curso.</p>
+                    el modal se puede abrir en una ventana nueva, y la página del juego y de la canción. "El Juego ha
+                    sido creado con JavaScript con ayuda de un tutorial ayudandome a aprender mas sobre el lenguaje.</p>
+                <p>- Ajustes: Opción a cambiar entre modo Oscuro y Claro y para cambiar el nombre de usuario.</p>
                 <p>- Modal: Este modal donde se incluyen los distintos datos.</p>
-                <p>- Familia XML:</p>
+                <p>- Familia XML: En el botón central de la Página "Ver Canción" para ver el XML de Partiendo la Pana de
+                    Estopa.</p>
                 <p>- JavaScript: Lectura de datos a la hora del inicio de sesión, modificación tanto cambiando de modo
-                    como el nombre de usuario en los datos y consola al iniciar sesión y cambair de modo.</p>
-                <p>- HTML: 1 elemento de entrada el inicio de sesión, 2 elemento el cambio de usuario, </p>
+                    como el nombre de usuario en los datos y consola al iniciar sesión y cambiar de modo.</p>
+                <p>- HTML: 1 elemento de entrada el inicio de sesión, 2 elemento el cambio de usuario, 3 enviar alerta.
+                </p>
                 <p>- Nombre de Usuario: Sin identificar cuando no se ha iniciado sesión, y nombre se usuario cuando se
                     inicia.</p>
             </div>
@@ -81,6 +91,20 @@
 
     <p id="userNameTxt">Sin Identificar</p>
 
+    <button id="menuButton" onclick="openModal()"><i class="fa-solid fa-bars"></i></button>
+
+    <div id="menuModal" class="modal-menu">
+        <div class="modal-menu-content">
+            <ul class="menu-list">
+                <li></li><a href="index.html"><button class="play-button">Inicio</button></a>
+                <li></li><a href="solitario.html"><button class="play-button">Jugar</button></a>
+                <li></li><a href="partiendo_la_pana.xml"><button class="play-button">Ver Canción</button></a>
+                <li></li><a href="config.html"><button class="play-button">Ajustes</button></a>
+            </ul>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
     <script src="script.js"></script>
     <script src="config.js"></script>
 </body>
