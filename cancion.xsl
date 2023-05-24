@@ -30,6 +30,10 @@
 					<br/>
 				</xsl:for-each>
 
+				<button id="menuButton" onclick="openModal()">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+
 				<div id="menuModal" class="modal-menu">
 					<div class="modal-menu-content">
 						<ul class="menu-list">
@@ -53,7 +57,6 @@
 					</div>
 				</div>
 
-				
 				<script src="darkMode.js"></script>
 				<script src="menu.js"></script>
 			</body>
