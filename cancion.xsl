@@ -4,8 +4,8 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<link rel="stylesheet" href="cancion.css"/>
 				<link rel="stylesheet" href="menu.css"/>
+				<link rel="stylesheet" href="cancion.css"/>
 				<script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
 				</head>
 				<body>
@@ -29,11 +29,6 @@
 					</xsl:for-each>
 					<br/>
 				</xsl:for-each>
-
-
-				<button id="menuButton" onclick="openModal()">
-					<i class="fa-solid fa-bars"></i>
-				</button>
 
 				<div id="menuModal" class="modal-menu">
 					<div class="modal-menu-content">
