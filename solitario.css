@@ -81,3 +81,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .modal-content {
+  background-color: #333;
+}
+
+.dark-mode .close {
+  color: #ccc;
+}

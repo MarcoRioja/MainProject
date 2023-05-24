@@ -1,32 +1,5 @@
-var body = document.body;
-var modoGuardado = localStorage.getItem("modo");
 var userTxt = document.getElementById("userNameTxt");
-
-function loadConfig() {
-    modoGuardado = localStorage.getItem("modo");
-    body = document.body;
-    if (modoGuardado === "oscuro") {
-        body.classList.add("dark-mode");
-        console.log("Activado Modo Oscuro");
-        modeSwitch.checked = true;
-    } else {
-        body.classList.remove("dark-mode");
-        console.log("Activado Modo Claro");
-        modeSwitch.checked = false;
-    }
-}
-
-function toggleMode() {
-    if (modeSwitch.checked) {
-        body.classList.add("dark-mode");
-        console.log("Activado Modo Oscuro");
-        localStorage.setItem("modo", "oscuro");
-    } else {
-        body.classList.remove("dark-mode");
-        console.log("Activado Modo Claro");
-        localStorage.setItem("modo", "claro");
-    }
-}
+var modoGuardado = localStorage.getItem("modo");
 
 function backIndex() {
     window.location.href = "index.html";
@@ -55,6 +28,25 @@ function loadUser () {
     savedUser = localStorage.getItem("username");
 }
 
+function toggleMode() {
+    if (modeSwitch.checked) {
+        body.classList.add("dark-mode");
+        console.log("Activado Modo Oscuro");
+        localStorage.setItem("modo", "oscuro");
+    } else {
+        body.classList.remove("dark-mode");
+        console.log("Activado Modo Claro");
+        localStorage.setItem("modo", "claro");
+    }
+}
 
+function setSwitch() {
+    if (modoGuardado == "oscuro") {
+        modeSwitch.checked = true;
+    } else {
+        modeSwitch.checked = false;
+    }
+}
+
+setSwitch();
 setUser();
-loadConfig();

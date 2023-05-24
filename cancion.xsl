@@ -57,7 +57,7 @@
 					</div>
 				</div>
 
-				<script src="config.js"></script>
+				<script src="darkMode.js"></script>
 				<script src="menu.js"></script>
 			</body>
 		</html>
