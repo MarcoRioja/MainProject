@@ -30,10 +30,6 @@
 					<br/>
 				</xsl:for-each>
 
-				<button id="menuButton" onclick="openModal()">
-					<i class="fa-solid fa-bars"></i>
-				</button>
-
 				<div id="menuModal" class="modal-menu">
 					<div class="modal-menu-content">
 						<ul class="menu-list">
