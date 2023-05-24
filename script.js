@@ -1,4 +1,3 @@
-var playButton = document.querySelector('.play-button');
 var modal = document.getElementById('modal');
 var modal_data = document.getElementById('modal-data');
 var modeSwitch = document.getElementById("modeSwitch");
@@ -8,7 +7,7 @@ var usernameInput = document.getElementById("username_in");
 var userTxt = document.getElementById("userNameTxt");
 
 document.querySelector('.data-button').addEventListener('click', function () {
-    if ( savedUser == "null") {
+    if ( savedUser == "null" || savedUser == "") {
         document.getElementById("modal-data").style.display = "block";
     } else {
         document.getElementById("modal-user-data").style.display = "block";
@@ -61,11 +60,6 @@ document.getElementById("closeButton").addEventListener("click", function (event
     document.getElementById("modal-user-data").style.display = "none";
 });
 
-playButton.addEventListener('click', function () {
-    // Acción al hacer clic en el botón "Jugar"
-    // Puedes agregar aquí el código que desees ejecutar
-});
-
 var closeButton2 = document.querySelector("#modal .close");
 if (closeButton2) {
     closeButton2.addEventListener("click", function () {
@@ -91,7 +85,7 @@ document.querySelector('#seeDataBtn').addEventListener('click', function () {
 
 function setUser() {
     loadUser();
-    if (savedUser != "null") {
+    if (savedUser != "null" || savedUser == "") {
         userTxt.innerText = savedUser;
     } else {
         userTxt.innerText = "Sin Identificar";

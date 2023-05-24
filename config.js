@@ -2,6 +2,8 @@ var body = document.body;
 var modoGuardado = localStorage.getItem("modo");
 var userTxt = document.getElementById("userNameTxt");
 
+console.log("aaa" + savedUser);
+
 function loadConfig() {
     modoGuardado = localStorage.getItem("modo");
     body = document.body;
@@ -44,7 +46,7 @@ document.getElementById("loginSubmitAj").addEventListener("click", function (eve
 
 function setUser() {
     loadUser();
-    if (savedUser != "null") {
+    if (savedUser != "null" || savedUser == "") {
         userTxt.innerText = savedUser;
     } else {
         userTxt.innerText = "Sin Identificar";
@@ -54,6 +56,7 @@ function setUser() {
 function loadUser () {
     savedUser = localStorage.getItem("username");
 }
+
 
 setUser();
 loadConfig();
