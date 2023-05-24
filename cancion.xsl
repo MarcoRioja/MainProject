@@ -5,7 +5,7 @@
 		<html>
 			<head>
 				<link rel="stylesheet" href="cancion.css"/>
-				<link rel="stylesheet" href="menu.css">
+				<link rel="stylesheet" href="menu.css"/>
 				<script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
 				</head>
 				<body>
