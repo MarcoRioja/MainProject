@@ -37,7 +37,7 @@ p::before {
 
 
 #menuButton {
-    position: absolute;
+    position: sticky;
     right: 20px;
     bottom: 20px;
     scale: 2;
