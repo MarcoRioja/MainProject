@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="solitario.css">
+</head>
+
+<body>
+    <div class="board">
+        <button class="start">Empezar</button>
+        <a href="index.html" id="backBtn"><button>Volver</button></a>
+        <div class="top">
+            <div class="deck">
+                <div class="card-space">
+                    <div id="initial-pile"></div>
+                    <div class="deck-card">
+                        <img src="img/dorso.png">
+                    </div>
+                </div>
+                <div class="card-space" id="selected"></div>
+            </div>
+            <div class="home">
+                <div class="card-space" id="home-0"></div>
+                <div class="card-space" id="home-1"></div>
+                <div class="card-space" id="home-2"></div>
+                <div class="card-space" id="home-3"></div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="card-space" id="pile-0"></div>
+            <div class="card-space" id="pile-1"></div>
+            <div class="card-space" id="pile-2"></div>
+            <div class="card-space" id="pile-3"></div>
+            <div class="card-space" id="pile-4"></div>
+            <div class="card-space" id="pile-5"></div>
+            <div class="card-space" id="pile-6"></div>
+        </div>
+    </div>
+    <p id="userNameTxt">Sin Identificar</p>
+    <script src="solitario.js"></script>
+</body>
+
+</html>

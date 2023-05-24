@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi página</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <a href="solitario.html"><button class="play-button">Jugar</button></a>
+        <a href="partiendo_la_pana.xml"><button class="play-button">Ver Canción</button></a>
+        <div class="settings-button"><i class="fa-solid fa-gear"></i></div>
+        <div class="data-button"><i class="fa-solid fa-user"></i></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ajustes</h2>
+            <label class="switch">
+                <input type="checkbox" id="modeSwitch" onclick="toggleMode()">
+                <span class="slider round"></span>
+            </label>
+            <span id="modeText" class="mode-text">Modo Oscuro</span>
+            <form>
+                <label for="username">Cambiar Nombre:</label>
+                <input type="text" id="username_incf" name="username" class="textEntry">
+                <br>
+                <input type="submit" value="Cambiar"  id="loginSubmitAj">
+            </form>
+            <br>
+            <a href="config.html" id="CfButton">Abrir en nueva página</a>
+        </div>
+    </div>
+
+    <div id="modal-data" class="modal">
+        <div class="modal-content">
+            <span class="close" id="data-close">&times;</span>
+            <h2>Inicio de sesión</h2>
+            <form>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username_in" name="username">
+                <br>
+                <input type="submit" value="Iniciar sesión"  id="loginSubmit">
+            </form>
+        </div>
+    </div>
+
+    <div id="modal-user-data" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>User</h2>
+            <p id="UserNameDt"></p>
+            <button id="closeButton">Cerrar Sesión</button>
+            <br>
+            <br>
+            <span id="seeDataBtn">Ver datos de Marco</span>
+            <div id="seeData"><p>- Menú: Pagina inicial que actua como menu, con 2 modales, uno en la esquina izquierda para el inicio de sesión y otro en la esquina derecha para los ajustes. Y en el centro de la página un botón para jugar.</p>
+            <p>- Páginas: Página inicial, página de ajustes, se puede acceder en la esquina derecha, una vez abierto el modal se puede abrir en una ventana nueva, y la página del juego.</p>
+            <p>- Ajustes: Opción a cambiar entre modo Oscuro y Claro y para cambiar tanto el nombre de usuario y el curso.</p>
+            <p>- Modal: Este modal donde se incluyen los distintos datos.</p>
+            <p>- Familia XML:</p>
+            <p>- JavaScript: Lectura de datos a la hora del inicio de sesión, modificación tanto cambiando de modo como el nombre de usuario en los datos y consola al iniciar sesión y cambair de modo.</p>
+            <p>- HTML: 1 elemento de entrada el inicio de sesión, 2 elemento el cambio de usuario, </p>
+            <p>- Nombre de Usuario: Sin identificar cuando no se ha iniciado sesión, y nombre se usuario cuando se inicia.</p></div>
+            
+        </div>
+    </div>
+
+    <p id="userNameTxt">Sin Identificar</p>
+
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+</body>
+
+</html>

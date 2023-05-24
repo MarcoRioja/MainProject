@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<cancion>
+	<titulo>Partiendo la Pana</titulo>
+ 	<artista>Estopa</artista>
+  	<letra>
+  <estrofa>
+    <verso>Ponga atención a lo que voy a contar</verso>
+    <verso>Ocurrió una fría noche de Cornellá en un rincón</verso>
+    <verso>No recuerdo yo muy bien porqué sucedió</verso>
+    <verso>Solo recuerdo que estaba en un bar</verso>
+    <verso>¿Por qué será?</verso>
+  </estrofa>
+  <estrofa>
+    <verso>La clientela bebía, futbolín encontraba</verso>
+    <verso>Las miradas perdias', los codos en la barra</verso>
+    <verso>En fin, cerveza fría por mi garganta</verso>
+    <verso>Se derramaba</verso>
+  </estrofa>
+  <estrofa>
+    <verso>¡Qué escalofrío se pudo sentir!</verso>
+    <verso>Cuando entró un tipo bajito, pero eso si bacilón</verso>
+    <verso>Que poseía todo lo que el bar quería</verso>
+    <verso>Un toque mágico pa' la aficción</verso>
+    <verso>¿Por qué será?</verso>
+  </estrofa>
+    <verso>Y el tipo era una máquina, un pasao' de página, como las colaba</verso>
+    <verso>Como presionaba en fin se divertía y toda la gente le cantaba</verso>
+    <verso>Tú eres una fiera porque entras partiendo la pana</verso>
+    <verso>Invitando a la peña, invitando a cañas</verso>
+    <verso>Es la hija de la dueña, la tienes loca, loquita, loca</verso>
+  <estrofa>
+    <verso>Se veía de venir el marrón, por lo menos desde mi posición</verso>
+    <verso>Y el colega la empezó a bacilar del tirón</verso>
+    <verso>Pero la suerte a veces cambia de banda</verso>
+    <verso>Y el viejo de la niña saltó la barra</verso>
+    <verso>Menuda la panza, mirada desbocada, cuchillo jamonero</verso>
+  </estrofa>
+  <estrofa>
+    <verso>Y toda la gente le cantaba</verso>
+    <verso>Tú eres una fiera porque entras partiendo la pana</verso>
+    <verso>Invitando a la peña, invitando a cañas</verso>
+    <verso>Repartiendo leña</verso>
+    <verso>Enseño la pipa, ¿Qué quieres más señas?</verso>
+  </estrofa>
+  <estrofa>
+    <verso>Tiros y más tiros en un bar</verso>
+    <verso>La pasma está a punto de llegar</verso>
+    <verso>Yo me quedé con más ganas de juerga</verso>
+    <verso>Lo vi todo desde la puerta</verso>
+  </estrofa>
+  <estrofa>
+    <verso>Tiros y más tiros en un bar</verso>
+    <verso>La pasma está a punto de llegar</verso>
+    <verso>Yo me quedé con más ganas de juerga</verso>
+    <verso>Lo vi todo desde la puerta</verso>
+  </estrofa>
+  <estrofa>
+    <verso>Estopa entra partiendo la pana</verso>
+    <verso>Invitando a la peña, invitando a cambio</verso>
+    <verso>Repartiendo leña</verso>
+    <verso>Enseño la pipa, ¿Qué quieres más señas?</verso>
+  		</estrofa>
+  		<estrofa tipo="estribillo">
+    		<verso>Tú eres una fiera porque entras partiendo la pana</verso>
+    		<verso>Invitando a la peña, invitando a cañas</verso>
+    		<verso>Repartiendo leña</verso>
+    		<verso>Sacó la pipa, ¿Qué quieres más señas?</verso>
+  		</estrofa>
+  		<estrofa tipo="estribillo">
+    		<verso>Tú eres una fiera porque entras partiendo la pana</verso>
+    		<verso>Invitando a la peña, invitando a cañas</verso>
+    		<verso>Repartiendo leña</verso>
+    		<verso>Enseño la pipa, ¿Qué quieres más señas?</verso>
+  		</estrofa>
+  		<estrofa tipo="estribillo">
+    		<verso>Tú eres una fiera porque entras partiendo la pana</verso>
+    		<verso>Invitando a la peña, invitando a cañas</verso>
+    		<verso>Es la hija de la dueña, la tienes loca, loquita, loca</verso>
+  		</estrofa>
+  		<estrofa>
+    		<verso>¡Ándale y qué viva Zapata!</verso>
+    		<verso>¡Sígale, sígale, sígale, sígale, sígale!</verso>
+    		<verso>Que estan todos estos marihuanados</verso>
+    		<verso>No se me marihuanen</verso>
+		</estrofa>
+  		<estrofa tipo="estribillo">
+    		<verso>Invitando a la peña, invitando a cañas</verso>
+    		<verso>Repartiendo leña</verso>
+    		<verso>Enseño la pipa, ¿Qué quieres más señas?</verso>
+  		</estrofa>
+	</letra>
+</cancion>

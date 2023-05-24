@@ -1,0 +1,83 @@
+body {
+  background: #c0e8ff;
+}
+
+.start {
+  background: #1264a3;
+  color: white;
+  background-color: #1264a3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+#backBtn button{
+  background: #1264a3;
+  color: white;
+  background-color: #1264a3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.deck {
+  display: flex;
+}
+
+.home {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.card-space {
+  border: 2px solid #08578c;
+  width: 97px;
+  height: 151px;
+  margin: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.card {
+  position: absolute;
+  border: 1px solid #888;
+  border-radius: 7px;
+  height: 153px;
+  border-radius: 5px;
+}
+
+.deck-card {
+  position: relative;
+  height: 100px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.initial-pile {
+  position: absolute;
+  border-radius: 5px;
+}
+
+#userNameTxt {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

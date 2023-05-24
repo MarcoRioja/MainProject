@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/77c525c289.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="cfBody">
+        <span id="backBtn" onclick="backIndex()"><i class="fa-solid fa-left-long"></i></span>
+        <div id="configContainer">
+            <h2>Ajustes</h2>
+            <div>
+                <label class="switch">
+                    <input type="checkbox" id="modeSwitch" onclick="toggleMode()">
+                    <span class="slider round"></span>
+                </label>
+                <span id="modeText" class="mode-text">Modo Oscuro</span>
+            </div>
+            <br>
+            <form>
+                <label for="username">Cambiar Nombre:</label>
+                <input type="text" id="username_incf" name="username" class="textEntry">
+                <br>
+                <br>
+                <input type="submit" value="Cambiar" id="loginSubmitAj">
+            </form>
+        </div>
+    </div>
+    
+    <p id="userNameTxt">Sin Identificar</p>
+
+    <script src="config.js"></script>
+</body>
+
+</html>
