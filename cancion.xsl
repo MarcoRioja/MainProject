@@ -30,27 +30,6 @@
 				<br/>
 			</xsl:for-each>
 
-			<div class="modal-menu-content">
-				<ul class="menu-list">
-					<li></li>
-					<a href="index.html">
-						<button class="play-button">Inicio</button>
-					</a>
-					<li></li>
-					<a href="solitario.html">
-						<button class="play-button">Jugar</button>
-					</a>
-					<li></li>
-					<a href="partiendo_la_pana.xml">
-						<button class="play-button">Ver Canción</button>
-					</a>
-					<li></li>
-					<a href="config.html">
-						<button class="play-button">Ajustes</button>
-					</a>
-				</ul>
-			</div>
-
 			<script src="darkMode.js"></script>
 			<script src="menu.js"></script>
 		</body>

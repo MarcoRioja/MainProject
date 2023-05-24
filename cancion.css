@@ -34,11 +34,3 @@ p::before {
 .dark-mode .close {
     color: #ccc;
 }
-
-.modal-menu {
-    display: block;
-    position: fixed;
-    z-index: 9999;
-    bottom: 20px;
-    right: 20px;
-}
