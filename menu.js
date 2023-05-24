@@ -5,7 +5,7 @@ function openModal() {
 
 window.onclick = function (event) {
     var modal = document.getElementById("menuModal");
-    if (event.target === document.getElementById("main")) {
+    if (event.target === document.getElementById("main") || event.target === document.body) {
         modal.style.display = "none";
     }
 };
